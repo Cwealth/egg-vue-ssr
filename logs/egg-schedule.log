@@ -1,0 +1,21 @@
+2020-12-31 20:00:08,003 INFO 12436 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 30591999ms at 2021-01-01 04:30:00.002
+2020-12-31 20:00:08,003 INFO 12436 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14391997ms at 2021-01-01 00:00:00.000
+2020-12-31 20:00:08,003 INFO 12436 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14392997ms at 2021-01-01 00:00:01.000
+2020-12-31 20:00:07,845 INFO 13816 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-31 20:00:07,845 INFO 13816 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-31 20:00:07,845 INFO 13816 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-31 20:42:55,103 INFO 344 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 28024899ms at 2021-01-01 04:30:00.001
+2020-12-31 20:42:55,103 INFO 344 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 11824897ms at 2021-01-01 00:00:00.000
+2020-12-31 20:42:55,103 INFO 344 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 11825897ms at 2021-01-01 00:00:01.000
+2020-12-31 20:42:54,955 INFO 7840 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-31 20:42:54,955 INFO 7840 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-31 20:42:54,955 INFO 7840 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-31 20:42:57,109 INFO 14024 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-31 20:42:57,109 INFO 14024 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-31 20:42:57,109 INFO 14024 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-31 20:43:30,208 INFO 12908 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-12-31 20:43:30,208 INFO 12908 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-12-31 20:43:30,208 INFO 12908 [egg-schedule]: register schedule D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-12-31 20:44:08,545 INFO 9204 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 27951457ms at 2021-01-01 04:30:00.002
+2020-12-31 20:44:08,545 INFO 9204 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 11751455ms at 2021-01-01 00:00:00.000
+2020-12-31 20:44:08,545 INFO 9204 [Timer] D:\ssrTest\egg-vue-text\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 11752455ms at 2021-01-01 00:00:01.000
