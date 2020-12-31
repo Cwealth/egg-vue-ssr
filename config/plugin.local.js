@@ -13,3 +13,7 @@ exports.webpackvue = {
   package: 'egg-webpack-vue'
 };
 
+exports.sequelize = {
+  enable: true,
+  package: 'egg-sequelize',
+};

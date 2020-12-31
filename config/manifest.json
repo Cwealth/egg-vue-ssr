@@ -9,6 +9,7 @@
   "admin/login/login.js": "/public/js/chunk/admin/login/login.js",
   "category/category.js": "/public/js/chunk/category/category.js",
   "common.js": "/public/js/chunk/common.js",
+  "game/game.js": "/public/js/chunk/game/game.js",
   "index/index.js": "/public/js/chunk/index/index.js",
   "runtime.js": "/public/js/runtime.js",
   "font/element-icons.ttf": "/public/font/element-icons.ttf",
@@ -55,6 +56,14 @@
         "/public/js/runtime.js",
         "/public/js/chunk/common.js",
         "/public/js/chunk/category/category.js"
+      ],
+      "css": []
+    },
+    "game/game.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/game/game.js"
       ],
       "css": []
     },

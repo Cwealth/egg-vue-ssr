@@ -118,6 +118,7 @@
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-cors\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack-vue\\config\\locales",
+        "D:\\ssrTest\\egg-vue-text\\node_modules\\_egg-sequelize@6.0.0@egg-sequelize\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\config\\locales"
       ],
@@ -241,6 +242,18 @@
       },
       "webpackConfigList": []
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "egg_gamedb",
+      "host": "127.0.0.1",
+      "port": "53399",
+      "username": "root",
+      "password": "<String len: 8>",
+      "define": {
+        "timestamps": false,
+        "freezeTableName": true
+      }
+    },
     "env": "local",
     "name": "egg-vue-text",
     "keys": "<String len: 6>",
@@ -270,6 +283,7 @@
       "dependencies": {
         "axios": "^0.18.1",
         "cross-env": "^5.0.0",
+        "dayjs": "^1.9.8",
         "egg": "^2.1.0",
         "egg-bin": "^4.3.7",
         "egg-cors": "^2.0.0",
@@ -434,16 +448,23 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [
-      "locals",
-      "access"
-    ],
+    "jwt": {
+      "secret": "<String len: 6>"
+    },
+    "redis": {
+      "client": {
+        "password": "<String len: 1>",
+        "port": 6379,
+        "host": "127.0.0.1",
+        "db": 0
+      }
+    },
     "logview": {
       "dir": "D:\\ssrTest\\egg-vue-text\\logs"
     },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -651,6 +672,17 @@
       "from": "D:\\ssrTest\\egg-vue-text\\config\\plugin.local.js",
       "path": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack-vue",
       "version": "2.0.2"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\ssrTest\\egg-vue-text\\config\\plugin.local.js",
+      "path": "D:\\ssrTest\\egg-vue-text\\node_modules\\_egg-sequelize@6.0.0@egg-sequelize",
+      "version": "6.0.0"
     }
   }
 }

@@ -53,7 +53,6 @@
     "maxFiles": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-static\\config\\config.default.js"
   },
   "keys": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
-  "middleware": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
   "security": {
     "csrf": {
       "ignoreJSON": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
@@ -106,6 +105,29 @@
     "ssrf": {
       "ipBlackList": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "jwt": {
+    "secret": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "host": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "port": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "username": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "password": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "database": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+    "define": {
+      "timestamps": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+      "freezeTableName": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js"
+    }
+  },
+  "redis": {
+    "client": {
+      "password": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+      "port": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+      "host": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js",
+      "db": "D:\\ssrTest\\egg-vue-text\\config\\config.default.js"
     }
   },
   "view": {
@@ -226,6 +248,7 @@
     "dependencies": {
       "axios": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",
       "cross-env": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",
+      "dayjs": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",
       "egg": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",
       "egg-bin": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\config.default.js",

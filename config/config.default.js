@@ -35,11 +35,6 @@ module.exports = app => {
 
   exports.keys = '123456';
 
-  exports.middleware = [
-    'locals',
-    'access'
-  ];
-
   exports.security = {
     csrf: {
       ignoreJSON: false,
@@ -50,6 +45,38 @@ module.exports = app => {
     xframe: {
       enable: false,
     },
+  };
+
+  exports.jwt = {
+    secret: 'canyun',
+  };
+
+  exports.sequelize = {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: '53399',
+    username: 'root',
+    password: 'Ts123123',
+    database: 'egg_gamedb',
+    define: {
+      timestamps: false,
+      freezeTableName: true,
+    },
+  };
+  
+  exports.redis = {
+    client: {
+      password: 'a',
+      port: 6379,
+      host: '127.0.0.1',
+      db: 0,
+    },
+  };
+
+  // add your user config here
+  const userConfig = {
+    salt: 'canyun',
+    redisExpire: 60 * 60 * 24,
   };
 
   
