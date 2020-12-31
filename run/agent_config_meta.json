@@ -126,9 +126,7 @@
     "overrideIgnore": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logview": {
-    "dir": "D:\\ssrTest\\egg-vue-text\\config\\config.local.js",
-    "prefix": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-logview\\config\\config.default.js",
-    "staticHost": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-logview\\config\\config.default.js"
+    "dir": "D:\\ssrTest\\egg-vue-text\\config\\config.local.js"
   },
   "webpack": "D:\\ssrTest\\egg-vue-text\\config\\config.local.js",
   "session": {

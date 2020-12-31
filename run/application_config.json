@@ -118,7 +118,6 @@
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-cors\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack-vue\\config\\locales",
-        "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-logview\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\node_modules\\egg\\config\\locales",
         "D:\\ssrTest\\egg-vue-text\\config\\locales"
       ],
@@ -241,11 +240,6 @@
         "match": "/^\\/public\\//"
       },
       "webpackConfigList": []
-    },
-    "logview": {
-      "prefix": "__logs",
-      "staticHost": "https://unpkg.cnpmjs.org",
-      "dir": "D:\\ssrTest\\egg-vue-text\\logs"
     },
     "env": "local",
     "name": "egg-vue-text",
@@ -424,8 +418,7 @@
       "session",
       "securities",
       "i18n",
-      "eggLoaderTrace",
-      "logview"
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -445,6 +438,9 @@
       "locals",
       "access"
     ],
+    "logview": {
+      "dir": "D:\\ssrTest\\egg-vue-text\\logs"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
@@ -655,19 +651,6 @@
       "from": "D:\\ssrTest\\egg-vue-text\\config\\plugin.local.js",
       "path": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-webpack-vue",
       "version": "2.0.2"
-    },
-    "logview": {
-      "package": "egg-logview",
-      "env": [
-        "local"
-      ],
-      "enable": true,
-      "name": "logview",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "from": "D:\\ssrTest\\egg-vue-text\\config\\plugin.local.js",
-      "path": "D:\\ssrTest\\egg-vue-text\\node_modules\\egg-logview",
-      "version": "1.0.1"
     }
   }
 }

@@ -13,13 +13,3 @@ exports.webpackvue = {
   package: 'egg-webpack-vue'
 };
 
-exports.logview = {
-  package: 'egg-logview',
-  env: ['local']
-};
-
-exports.sequelize = {
-  enable: true,
-  package: 'egg-sequelize',
-};
-
