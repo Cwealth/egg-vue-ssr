@@ -296,3 +296,146 @@
 2020-12-31 21:26:49,629 INFO 1988 [egg:core] dump config after load, 4ms
 2020-12-31 21:26:49,661 INFO 1988 [egg-watcher:application] watcher start success
 2020-12-31 21:26:49,696 INFO 1988 [egg:core] dump config after ready, 6ms
+2021-01-02 10:59:11,189 INFO 1816 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 10:59:11,225 INFO 1816 [egg-multipart] stream mode enable
+2021-01-02 10:59:11,718 INFO 1816 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 10:59:11,724 INFO 1816 [egg-security] use csrf middleware
+2021-01-02 10:59:11,726 INFO 1816 [egg-security] use methodnoallow middleware
+2021-01-02 10:59:11,727 INFO 1816 [egg-security] use noopen middleware
+2021-01-02 10:59:11,729 INFO 1816 [egg-security] use nosniff middleware
+2021-01-02 10:59:11,730 INFO 1816 [egg-security] use xssProtection middleware
+2021-01-02 10:59:11,731 INFO 1816 [egg-security] use dta middleware
+2021-01-02 10:59:11,731 INFO 1816 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 10:59:11,759 INFO 1816 [egg:core] dump config after load, 10ms
+2021-01-02 10:59:11,844 INFO 1816 [egg-watcher:application] watcher start success
+2021-01-02 10:59:11,881 INFO 1816 [egg:core] dump config after ready, 13ms
+2021-01-02 11:04:36,839 INFO 2780 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:04:36,881 INFO 2780 [egg-multipart] stream mode enable
+2021-01-02 11:04:37,590 INFO 2780 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:04:37,605 INFO 2780 [egg-security] use csrf middleware
+2021-01-02 11:04:37,609 INFO 2780 [egg-security] use methodnoallow middleware
+2021-01-02 11:04:37,610 INFO 2780 [egg-security] use noopen middleware
+2021-01-02 11:04:37,612 INFO 2780 [egg-security] use nosniff middleware
+2021-01-02 11:04:37,613 INFO 2780 [egg-security] use xssProtection middleware
+2021-01-02 11:04:37,614 INFO 2780 [egg-security] use dta middleware
+2021-01-02 11:04:37,614 INFO 2780 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:04:37,647 INFO 2780 [egg:core] dump config after load, 12ms
+2021-01-02 11:04:37,753 INFO 2780 [egg-watcher:application] watcher start success
+2021-01-02 11:04:37,824 INFO 2780 [egg:core] dump config after ready, 11ms
+2021-01-02 11:07:15,667 INFO 7984 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:07:15,719 INFO 7984 [egg-multipart] stream mode enable
+2021-01-02 11:07:16,220 INFO 7984 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:07:16,224 INFO 7984 [egg-security] use csrf middleware
+2021-01-02 11:07:16,226 INFO 7984 [egg-security] use methodnoallow middleware
+2021-01-02 11:07:16,227 INFO 7984 [egg-security] use noopen middleware
+2021-01-02 11:07:16,228 INFO 7984 [egg-security] use nosniff middleware
+2021-01-02 11:07:16,229 INFO 7984 [egg-security] use xssProtection middleware
+2021-01-02 11:07:16,230 INFO 7984 [egg-security] use dta middleware
+2021-01-02 11:07:16,230 INFO 7984 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:07:16,252 INFO 7984 [egg:core] dump config after load, 9ms
+2021-01-02 11:07:16,330 INFO 7984 [egg-watcher:application] watcher start success
+2021-01-02 11:07:16,359 INFO 7984 [egg:core] dump config after ready, 10ms
+2021-01-02 11:07:35,424 INFO 3208 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:07:35,488 INFO 3208 [egg-multipart] stream mode enable
+2021-01-02 11:07:36,045 INFO 3208 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:07:36,049 INFO 3208 [egg-security] use csrf middleware
+2021-01-02 11:07:36,051 INFO 3208 [egg-security] use methodnoallow middleware
+2021-01-02 11:07:36,051 INFO 3208 [egg-security] use noopen middleware
+2021-01-02 11:07:36,053 INFO 3208 [egg-security] use nosniff middleware
+2021-01-02 11:07:36,053 INFO 3208 [egg-security] use xssProtection middleware
+2021-01-02 11:07:36,054 INFO 3208 [egg-security] use dta middleware
+2021-01-02 11:07:36,054 INFO 3208 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:07:36,076 INFO 3208 [egg:core] dump config after load, 7ms
+2021-01-02 11:07:36,128 INFO 3208 [egg-watcher:application] watcher start success
+2021-01-02 11:07:36,160 INFO 3208 [egg:core] dump config after ready, 12ms
+2021-01-02 11:10:59,946 INFO 6284 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:10:59,984 INFO 6284 [egg-multipart] stream mode enable
+2021-01-02 11:11:00,567 INFO 6284 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:11:00,573 INFO 6284 [egg-security] use csrf middleware
+2021-01-02 11:11:00,576 INFO 6284 [egg-security] use methodnoallow middleware
+2021-01-02 11:11:00,577 INFO 6284 [egg-security] use noopen middleware
+2021-01-02 11:11:00,579 INFO 6284 [egg-security] use nosniff middleware
+2021-01-02 11:11:00,581 INFO 6284 [egg-security] use xssProtection middleware
+2021-01-02 11:11:00,582 INFO 6284 [egg-security] use dta middleware
+2021-01-02 11:11:00,582 INFO 6284 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:11:00,617 INFO 6284 [egg:core] dump config after load, 12ms
+2021-01-02 11:11:00,700 INFO 6284 [egg-watcher:application] watcher start success
+2021-01-02 11:11:00,737 INFO 6284 [egg:core] dump config after ready, 13ms
+2021-01-02 11:21:20,963 INFO 8572 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:21:21,004 INFO 8572 [egg-multipart] stream mode enable
+2021-01-02 11:21:21,761 INFO 8572 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:21:21,771 INFO 8572 [egg-security] use csrf middleware
+2021-01-02 11:21:21,774 INFO 8572 [egg-security] use methodnoallow middleware
+2021-01-02 11:21:21,775 INFO 8572 [egg-security] use noopen middleware
+2021-01-02 11:21:21,778 INFO 8572 [egg-security] use nosniff middleware
+2021-01-02 11:21:21,780 INFO 8572 [egg-security] use xssProtection middleware
+2021-01-02 11:21:21,782 INFO 8572 [egg-security] use dta middleware
+2021-01-02 11:21:21,782 INFO 8572 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:21:21,812 INFO 8572 [egg:core] dump config after load, 8ms
+2021-01-02 11:21:21,868 INFO 8572 [egg-watcher:application] watcher start success
+2021-01-02 11:21:21,897 INFO 8572 [egg:core] dump config after ready, 9ms
+2021-01-02 11:21:24,853 INFO 8768 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:21:24,893 INFO 8768 [egg-multipart] stream mode enable
+2021-01-02 11:21:25,415 INFO 8768 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:21:25,419 INFO 8768 [egg-security] use csrf middleware
+2021-01-02 11:21:25,421 INFO 8768 [egg-security] use methodnoallow middleware
+2021-01-02 11:21:25,422 INFO 8768 [egg-security] use noopen middleware
+2021-01-02 11:21:25,424 INFO 8768 [egg-security] use nosniff middleware
+2021-01-02 11:21:25,424 INFO 8768 [egg-security] use xssProtection middleware
+2021-01-02 11:21:25,425 INFO 8768 [egg-security] use dta middleware
+2021-01-02 11:21:25,425 INFO 8768 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:21:25,447 INFO 8768 [egg:core] dump config after load, 8ms
+2021-01-02 11:21:25,511 INFO 8768 [egg-watcher:application] watcher start success
+2021-01-02 11:21:25,579 INFO 8768 [egg:core] dump config after ready, 13ms
+2021-01-02 11:21:28,720 INFO 8760 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:21:28,778 INFO 8760 [egg-multipart] stream mode enable
+2021-01-02 11:21:29,290 INFO 8760 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:21:29,293 INFO 8760 [egg-security] use csrf middleware
+2021-01-02 11:21:29,295 INFO 8760 [egg-security] use methodnoallow middleware
+2021-01-02 11:21:29,295 INFO 8760 [egg-security] use noopen middleware
+2021-01-02 11:21:29,297 INFO 8760 [egg-security] use nosniff middleware
+2021-01-02 11:21:29,297 INFO 8760 [egg-security] use xssProtection middleware
+2021-01-02 11:21:29,298 INFO 8760 [egg-security] use dta middleware
+2021-01-02 11:21:29,298 INFO 8760 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:21:29,321 INFO 8760 [egg:core] dump config after load, 8ms
+2021-01-02 11:21:29,417 INFO 8760 [egg-watcher:application] watcher start success
+2021-01-02 11:21:29,447 INFO 8760 [egg:core] dump config after ready, 10ms
+2021-01-02 11:23:29,710 INFO 8284 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:23:29,766 INFO 8284 [egg-multipart] stream mode enable
+2021-01-02 11:23:30,297 INFO 8284 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:23:30,300 INFO 8284 [egg-security] use csrf middleware
+2021-01-02 11:23:30,303 INFO 8284 [egg-security] use methodnoallow middleware
+2021-01-02 11:23:30,304 INFO 8284 [egg-security] use noopen middleware
+2021-01-02 11:23:30,306 INFO 8284 [egg-security] use nosniff middleware
+2021-01-02 11:23:30,307 INFO 8284 [egg-security] use xssProtection middleware
+2021-01-02 11:23:30,307 INFO 8284 [egg-security] use dta middleware
+2021-01-02 11:23:30,307 INFO 8284 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:23:30,330 INFO 8284 [egg:core] dump config after load, 8ms
+2021-01-02 11:23:30,394 INFO 8284 [egg-watcher:application] watcher start success
+2021-01-02 11:23:30,420 INFO 8284 [egg:core] dump config after ready, 9ms
+2021-01-02 11:53:24,789 INFO 5764 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:53:24,832 INFO 5764 [egg-multipart] stream mode enable
+2021-01-02 11:53:25,349 INFO 5764 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:53:25,353 INFO 5764 [egg-security] use csrf middleware
+2021-01-02 11:53:25,355 INFO 5764 [egg-security] use methodnoallow middleware
+2021-01-02 11:53:25,356 INFO 5764 [egg-security] use noopen middleware
+2021-01-02 11:53:25,357 INFO 5764 [egg-security] use nosniff middleware
+2021-01-02 11:53:25,358 INFO 5764 [egg-security] use xssProtection middleware
+2021-01-02 11:53:25,358 INFO 5764 [egg-security] use dta middleware
+2021-01-02 11:53:25,358 INFO 5764 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:53:25,381 INFO 5764 [egg:core] dump config after load, 8ms
+2021-01-02 11:53:25,458 INFO 5764 [egg-watcher:application] watcher start success
+2021-01-02 11:53:25,484 INFO 5764 [egg:core] dump config after ready, 10ms
+2021-01-02 11:55:34,581 INFO 2424 [egg:logger] init all loggers with options: {"dir":"E:\\ccf\\egg-vue-ssr\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-text-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-02 11:55:34,626 INFO 2424 [egg-multipart] stream mode enable
+2021-01-02 11:55:35,269 INFO 2424 [egg-static] starting static serve /public/ -> E:\ccf\egg-vue-ssr\public
+2021-01-02 11:55:35,273 INFO 2424 [egg-security] use csrf middleware
+2021-01-02 11:55:35,275 INFO 2424 [egg-security] use methodnoallow middleware
+2021-01-02 11:55:35,276 INFO 2424 [egg-security] use noopen middleware
+2021-01-02 11:55:35,278 INFO 2424 [egg-security] use nosniff middleware
+2021-01-02 11:55:35,279 INFO 2424 [egg-security] use xssProtection middleware
+2021-01-02 11:55:35,280 INFO 2424 [egg-security] use dta middleware
+2021-01-02 11:55:35,280 INFO 2424 [egg-security] compose 6 middlewares into one security middleware
+2021-01-02 11:55:35,304 INFO 2424 [egg:core] dump config after load, 9ms
+2021-01-02 11:55:35,365 INFO 2424 [egg-watcher:application] watcher start success
+2021-01-02 11:55:35,395 INFO 2424 [egg:core] dump config after ready, 11ms

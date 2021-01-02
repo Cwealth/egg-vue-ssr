@@ -121,3 +121,116 @@ hostname: ITSK-COM
     at Generator.next (<anonymous>)
     at onFulfilled (D:\ssrTest\egg-vue-text\node_modules\co\index.js:65:19)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 10:59:26,661 ERROR 1816 [game/index.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\ccf\egg-vue-ssr\app\view\game\index.js] content is empty, please check if the file exists
+    at E:\ccf\egg-vue-ssr\node_modules\_egg-webpack-vue@2.0.2@egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\ccf\egg-vue-ssr\node_modules\_co@4.6.0@co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 11:04:37,175 ERROR 1816 [game/index.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\ccf\egg-vue-ssr\app\view\game\index.js] content is empty, please check if the file exists
+    at E:\ccf\egg-vue-ssr\node_modules\_egg-webpack-vue@2.0.2@egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\ccf\egg-vue-ssr\node_modules\_co@4.6.0@co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 11:07:16,614 ERROR 7984 [game/index.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\ccf\egg-vue-ssr\app\view\game\index.js] content is empty, please check if the file exists
+    at E:\ccf\egg-vue-ssr\node_modules\_egg-webpack-vue@2.0.2@egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\ccf\egg-vue-ssr\node_modules\_co@4.6.0@co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 11:07:17,824 ERROR 7984 [game/index.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\ccf\egg-vue-ssr\app\view\game\index.js] content is empty, please check if the file exists
+    at E:\ccf\egg-vue-ssr\node_modules\_egg-webpack-vue@2.0.2@egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\ccf\egg-vue-ssr\node_modules\_co@4.6.0@co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 11:07:34,117 ERROR 7984 [game/index.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\ccf\egg-vue-ssr\app\view\game\index.js] content is empty, please check if the file exists
+    at E:\ccf\egg-vue-ssr\node_modules\_egg-webpack-vue@2.0.2@egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\ccf\egg-vue-ssr\node_modules\_co@4.6.0@co\index.js:65:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-01-02 11:57:53,783 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\router"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:53,862 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\login"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:53,879 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\view\\dashboard"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:53,884 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\store\\app"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:53,889 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\view\\write"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:53,896 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\component"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:55,002 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\store"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+
+2021-01-02 11:57:55,010 ERROR 3316 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\ccf\\egg-vue-ssr\\app\\web\\page\\admin\\home\\view"
+name: "EPERMError"
+pid: 3316
+hostname: USER-20200422WD
+

@@ -1,0 +1,375 @@
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+dl,
+dt,
+dd {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+select,
+button,
+input[type="button"],
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /* margin: 0px; */
+  /* padding: 0px; */
+  /* height: auto;
+  line-height: normal; */
+}
+
+ /* html {
+   width: 100%;
+   height: 100%;
+ } */
+
+/* 以上内容是清除固定的样式,不爽可以随意修改 */
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  line-height: normal;
+  font-size: 16px;
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  font-family: 'Microsoft YaHei', '黑体', '宋体', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clean-both{
+  clear: both;
+}
+
+
+/* 去除滚动条 */
+/* ::-webkit-scrollbar {
+	display: none;
+} */
+
+.mul-line {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(180, 180, 180);
+  /* color: rgba(239, 239, 239,0.8); */
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(180, 180, 180);
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(180, 180, 180);
+}
+
+::-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(180, 180, 180);
+}
+
+/* 弹性布局 水平垂直平分
+兼容IE10
+弹性布局flex不支持IE10以下的版本 */
+.myb-flex-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-flex-between {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-flex-around {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-flex-end {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-flex-start {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-flex-column {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.myb-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.position-abs {
+  width: 100%;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+}
+
+/* 超出当前宽度显示... */
+.c-nowrap {
+  /* width: 100%; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 独播电影角标 */
+.dbTip:after {
+  display: block;
+  content: "独播";
+  width: 0.32rem;
+  height: 0.18rem;
+  line-height: 0.18rem;
+  position: absolute;
+  top: 0px;
+  right: 0.05rem;
+  color: white;
+  font-size: 0.11rem;
+  text-align: center;
+  background-color: rgb(255, 146, 0);
+  border-bottom-left-radius: 0.04rem;
+  border-bottom-right-radius: 0.04rem;
+}
+
+/* vip电影角标 */
+.vipTip:after {
+  display: block;
+  content: "VIP";
+  width: 0.31rem;
+  height: 0.18rem;
+  /* line-height: 0.18rem; */
+  position: absolute;
+  top: 0px;
+  right: 0.05rem;
+  color: white;
+  font-size: 0.11rem;
+  text-align: center;
+  background-color: rgb(231, 187, 120);
+  border-bottom-left-radius: 0.04rem;
+  border-bottom-right-radius: 0.04rem;
+  z-index: 999;
+}
+
+
+/* 提示弹窗 */
+/* 弹窗样式 */
+.myTip-toast {
+  width: 100%;
+  position: fixed;
+  top: 30%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 99999999;
+}
+
+.myTip-toast.active {
+  opacity: 0.9;
+}
+
+.myTip-toast span {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+
+.toastShake {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* 确认/取消弹窗 */
+.myTip-confirm-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.myTip-confirm {
+  width: 270px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -135px;
+  padding-top: 1px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.myTip-confirm-bg.active .myTip-confirm {
+  opacity: 1;
+}
+
+.myTip-confirm .cofirm-title {
+  font-size: 18px;
+  margin: 10px 0px 5px 0px;
+}
+
+.myTip-confirm .cofirm-message {
+  font-size: 14px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.myTip-confirm .cofirm-btn {
+  width: 100%;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+.myTip-confirm .left-btn,
+.myTip-confirm .right-btn {
+  display: inline-block;
+  width: 134.5px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.myTip-confirm .left-btn {
+  border-right: 1px solid rgb(200, 200, 200);
+}
+
+.myTip-confirm .left-btn:hover,
+.myTip-confirm .right-btn:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+/* 翻页效果 */
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  transition: all 500ms;
+}
+
+.slide-right-enter {
+  /* opacity: 1;
+  transform: translate3d(-100%, 0, 0); */
+}
+
+.slide-right-leave-active {
+  opacity: 1;
+  transform: translate3d(100%, 0, 0);
+  z-index: 999;
+}
+
+.slide-left-enter {
+  opacity: 1;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-left-leave-active {
+  /* opacity: 1;
+  transform: translate3d(-100%, 0, 0); */
+}
+
+/* 翻页效果-结束 */

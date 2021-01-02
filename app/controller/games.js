@@ -12,7 +12,8 @@ class GamesControll extends BaseControll {
     const order = params.order === 1 ? [ 'createTime', 'DESC' ] : [ 'sortId', 'ASC' ];
     const count = await ctx.service.games.count(params);
     let data = await ctx.service.games.list(params, page, limit, order);
-    await this.ctx.render('game/index.js', data);
+    const obj = {list: data}
+    await this.ctx.render('game/game.js', obj);
   }
 
   async list() {
